@@ -4,14 +4,13 @@
     margin: 0;
     padding: 0;
 }
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
+body{
+    min-width: 1440px;
 }
 /* main ********/
 main{
     background-color: black;
+    color: white;
 }
 /* nav_mec */
 .mec_nav{
@@ -23,6 +22,7 @@ main{
     height: 10px;
     width: 10px;
     border-radius: 50%;
+    margin: 0 3px;
 }
 .intestaziione{
     width:100%;
@@ -37,12 +37,47 @@ h1,.grey_bar{
     background-color: gray;
     height: .5rem;
 }
+/* botton_view */
+.view_botton{
+    justify-content: end;
+    padding: 1rem;
+}
+.view_botton div{
+    background-color: #5454549f;
+    font-size: .8rem;
+    padding: .2rem;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+/* Webcam section */
+.webcam_container{
+    width: 90%;
+    margin: auto;
+}
+.videocard{
+    padding: 2px;
+    position: relative;
+}
+.videocard img{
+    width: 100%;
+}
+.videocard .name{
+    position: absolute;
+    z-index: 2;
+    top: 80%;
+    font-size: .5rem;
+    background-color: #2d2c2ca6;
+    padding: 5px;
+}
+.name h2{
+    display: inline-block;
+}
+.name i{
+    font-size: .7rem;
+}
 /* utility */
 .flex{
     display: flex;
-}
-.float{
-    float: left;
 }
 .w50{
     width: 50%;
