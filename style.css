@@ -38,6 +38,26 @@ main{
     color: white;
     position: relative;
 }
+.arrow{
+    position: absolute;
+    top: 50%;
+}
+.fa-caret-right,.fa-caret-left{
+    font-size: 3rem;
+}
+.fa-caret-left{
+    color: grey;
+}
+.left{
+    left: 1rem;
+}
+.arrow .fa-caret-right{
+    color: #39BBFC;
+}
+
+.right{
+    right: 1rem;
+}
 /* botton_view */
 .view_botton{
     justify-content: end;
