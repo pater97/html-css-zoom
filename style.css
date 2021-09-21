@@ -7,12 +7,7 @@
 body{
     min-width: 1440px;
 }
-/* main ********/
-main{
-    background-color: black;
-    color: white;
-}
-/* nav_mec */
+/* nav_mec ***************/
 .mec_nav{
     background-color: white;
     align-items: center;
@@ -37,6 +32,12 @@ h1,.grey_bar{
     background-color: gray;
     height: .5rem;
 }
+/* main ******************/
+main{
+    background-color: black;
+    color: white;
+    position: relative;
+}
 /* botton_view */
 .view_botton{
     justify-content: end;
@@ -50,9 +51,10 @@ h1,.grey_bar{
     margin-right: 10px;
 }
 /* Webcam section */
-.webcam_container{
+.all_webcam_container{
     width: 90%;
     margin: auto;
+    padding-bottom:2rem;
 }
 .videocard{
     padding: 2px;
@@ -74,6 +76,37 @@ h1,.grey_bar{
 }
 .name i{
     font-size: .7rem;
+}
+/* final navbar **********************/
+.final_navbar{
+    justify-content: space-between;
+    align-items: center;
+    background-color:#232629 ;
+}
+.final_navbar a{
+    color: white;
+    text-decoration: none;
+    margin-right: 17px;
+}
+.final_navbar h2{
+    font-size: 12px;
+    font-weight: 100;
+}
+.active_mic,.menu{
+    text-align: center;
+    padding: 2px 5px;
+    align-items:center ;
+}
+.fa-external-link-alt{
+    color: #51C623;
+}
+.end_meeting{
+    background-color: #4B4C4F;
+    color: #D7544F;
+    padding: 1rem;
+}
+.end_meeting:hover{
+    cursor: pointer;
 }
 /* utility */
 .flex{
