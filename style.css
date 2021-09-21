@@ -1,0 +1,61 @@
+/* general */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* main ********/
+main{
+    background-color: black;
+}
+/* nav_mec */
+.mec_nav{
+    background-color: white;
+    align-items: center;
+    padding: 3px;
+}
+.left_button a{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.intestaziione{
+    width:100%;
+    text-align: center;
+}
+h1,.grey_bar{
+    font-size: 12px;
+    display: inline-block;
+}
+.grey_bar{
+    width: 5rem;
+    background-color: gray;
+    height: .5rem;
+}
+/* utility */
+.flex{
+    display: flex;
+}
+.float{
+    float: left;
+}
+.w50{
+    width: 50%;
+}
+.w20{
+    width: 20%;
+}
+.green{
+    background-color: chartreuse;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
